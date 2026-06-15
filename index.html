@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MGX Campus — Africa's Innovation & Technology Workforce Development Platform</title>
+
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+  <link href="css/satoshi" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <link rel="stylesheet" href="assets/css/skn8ash.css">
+  <link rel="stylesheet" href="assets/css/swiper.min.css">
+  <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="assets/css/remixicon.css">
+  <link rel="stylesheet" href="assets/css/satoshi-font.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/app.min.css">
+</head>
+
+<body>
+
+  <div class="preloader">
+    <div class="preloader-inner">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div class="progress-bar-container">
+    <div class="progress-bar"></div>
+  </div>
+
+  <div class="paginacontainer">
+    <div class="progress-wrap">
+      <svg class="progress-circle svg-content" width="100%" height="100%" viewbox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+      </svg>
+      <div class="top-arrow">
+        <svg width="12" height="20" viewbox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0.999999 1L8 8L1 15" stroke="#1D1D1B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="wionmenu-wrapper">
+    <div class="wionmenu-area text-center">
+      <div class="wionmenu-mobile-top">
+        <div class="mobile-logo">
+          <a href='index.html'>
+            <img src="assets/images/logo/logo-dark.svg" alt="MGX Campus">
+          </a>
+        </div>
+        <button class="wionmenu-toggle mobile">
+          <i class="ri-close-line"></i>
+        </button>
+      </div>
+      <div class="wionmobile-menu">
+        <ul>
+          <li><a href='index.html'>Home</a></li>
+          <li class="menu-item-has-children">
+            <a href="#">Programs</a>
+            <ul class="sub-menu">
+              <li><a href='#programs'>Software Engineering</a></li>
+              <li><a href='#programs'>AI &amp; Data Science</a></li>
+              <li><a href='#programs'>Cybersecurity</a></li>
+              <li><a href='#programs'>Digital Governance</a></li>
+              <li><a href='#programs'>Research &amp; Innovation</a></li>
+              <li><a href='#programs'>Emerging Technologies</a></li>
+            </ul>
+          </li>
+          <li><a href='#about'>About</a></li>
+          <li><a href='#ecosystem'>Ecosystem</a></li>
+          <li><a href='#contact'>Contact</a></li>
+        </ul>
+      </div>
+      <div class="wionmobile-menu-btn">
+        <a class='wiondefault-btn wionheader-btn btn2' href='#contact'>Apply Now
+          <span class="wionbutton-icon">
+            <img class="arry1" src="assets/images/svg/arrow-right.png" alt="">
+            <img class="arry2" src="assets/images/svg/arrow-right.png" alt="">
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- End mobile menu -->
+
+  <header class="site-header wionheader-section" id="sticky-menu">
+    <div class="container">
+      <div class="row gx-3 align-items-center justify-content-between">
+        <div class="col-8 col-sm-auto">
+          <div class="header-logo">
+            <a href='index.html'>
+              <img src="assets/images/logo/logo-dark.svg" alt="MGX Campus">
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="wionmain-menu-item">
+            <nav class="main-menu menu-style1 d-none d-lg-block menu-left">
+              <ul>
+                <li><a href='index.html'>Home</a></li>
+                <li class="menu-item-has-children">
+                  <a href="#">Programs</a>
+                  <ul class="sub-menu">
+                    <li><a href='#programs'>Software Engineering</a></li>
+                    <li><a href='#programs'>AI &amp; Data Science</a></li>
+                    <li><a href='#programs'>Cybersecurity</a></li>
+                    <li><a href='#programs'>Digital Governance</a></li>
+                    <li><a href='#programs'>Research &amp; Innovation</a></li>
+                    <li><a href='#programs'>Emerging Technologies</a></li>
+                  </ul>
+                </li>
+                <li><a href='#about'>About</a></li>
+                <li><a href='#ecosystem'>Ecosystem</a></li>
+                <li><a href='#contact'>Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="col-auto d-flex align-items-center">
+          <div class="wionheader-barger">
+            <span></span>
+          </div>
+          <div class="wionheader-menu">
+            <nav class="navbar site-navbar justify-content-between">
+              <button class="wionmenu-toggle d-inline-block d-lg-none">
+                <span></span>
+              </button>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="wionsidemenu-wraper">
+    <div class="wionsidemenu-column2">
+      <div class="wionsidemenu-body">
+        <div class="wionsidebar-wrap">
+          <div class="wionsidebar-header-icon">
+            <a href='index.html'>
+              <img src="assets/images/logo/logo-dark.svg" alt="MGX Campus">
+            </a>
+          </div>
+          <div class="mt-50">
+            <div class="wionsidebar-content">
+              <p>We research the technology, build the products, train the workforce, and support the deployment.</p>
+              <img src="assets/images/hero/thumb7.png" alt="MGX Campus">
+            </div>
+            <div class="wionsidebar-content2">
+              <h4>Our Location</h4>
+              <p>MGX Research HQ, Africa Technology Hub</p>
+            </div>
+            <div class="wionsidebar-content2">
+              <h4>Reach Us</h4>
+              <p>Contact our admissions team today.
+                <a href="mailto:campus@mgxresearch.com">campus@mgxresearch.com</a>
+              </p>
+            </div>
+            <div class="wionsidebar-content2 pb-0">
+              <h4>Join Our Community</h4>
+              <p>Connect with engineers, researchers, and innovators across Africa.</p>
+              <div class="wionsidebar-social">
+                <ul>
+                  <li>
+                    <a href="https://www.twitter.com">
+                      <img class="social-show" src="assets/images/svg/fb.svg" alt="">
+                      <img class="social-hide" src="assets/images/svg/fb.svg" alt="">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com">
+                      <img class="social-show" src="assets/images/svg/in.svg" alt="">
+                      <img class="social-hide" src="assets/images/svg/in.svg" alt="">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com">
+                      <img class="social-show" src="assets/images/svg/ins.svg" alt="">
+                      <img class="social-hide" src="assets/images/svg/ins.svg" alt="">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com">
+                      <img class="social-show" src="assets/images/svg/twter.svg" alt="">
+                      <img class="social-hide" src="assets/images/svg/twter.svg" alt="">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="mt-50 wionsidebar-content3">
+              <p>© Copyright 2025, All Rights Reserved by MGX Campus</p>
+            </div>
+          </div>
+        </div>
+        <span class="wionsidemenu-close">
+          <i class="ri-close-line"></i>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="offcanvas-overlay"></div>
+
+  <!-- Hero -->
+  <section class="wiondefault-bg mb-0">
+    <div class="wionhero-section2" style="background-image: url(assets/images/hero/hero-bg2.png);">
+      <div class="container">
+        <div class="wionhero-content2">
+          <div class="wionsub-title title2 aos-init" data-aos-delay="200" data-aos="fade-up">
+            <p>Africa's Innovation &amp; Technology Workforce Development Platform</p>
+          </div>
+          <div class="aos-init" data-aos-delay="400" data-aos="fade-up">
+            <h1>Build the talent</h1>
+            <h1>that builds Africa!</h1>
+          </div>
+          <div class="mt-80">
+            <a class='wiondefault-btn white-btn aos-init' data-aos-delay='600' data-aos='fade-up' href='#programs'>Explore Programs
+              <span class="wionbutton-icon">
+                <img class="arry1" src="assets/images/svg/arrow-right.png" alt="">
+                <img class="arry2" src="assets/images/svg/arrow-right.png" alt="">
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="wionhero-data-wrap">
+          <div class="wionhero-data-item aos-init" data-aos-delay="800" data-aos="fade-up">
+            <h4>MGX Research — Technology, Products, Campus</h4>
+          </div>
+          <div class="wionhero-data-item item2 aos-init" data-aos-delay="1000" data-aos="fade-up">
+            <h4>We train engineers, researchers, and leaders for the digital economy</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end hero -->
+
+  <!-- About -->
+  <div class="wionabout-animation-section" id="about">
+    <div class="wionabout-animation-wraper">
+      <div class="wionabout-animation-wrap">
+        <div class="content-wrapper">
+          <img id="image-tl" class="animated-image" src="assets/images/about/thumb16.png" alt="">
+          <img id="image-tr" class="animated-image" src="assets/images/about/thumb14.png" alt="">
+          <img id="image-bl" class="animated-image" src="assets/images/about/thumb15.png" alt="">
+          <img id="image-br" class="animated-image" src="assets/images/about/thumb13.png" alt="">
+          <div class="wionabout-content4 text-content">
+            <h3>MGX Campus is the talent development arm of MGX Research — bridging academic education and industry-ready skills across Software Engineering, AI, Cybersecurity, and Digital Governance for Africa's digital economy.</h3>
+            <div class="mt-50">
+              <a class='wiondefault-btn white-btn' href='#contact'>Apply for a Program
+                <span class="wionbutton-icon">
+                  <img class="arry1" src="assets/images/svg/arrow-right.png" alt="">
+                  <img class="arry2" src="assets/images/svg/arrow-right.png" alt="">
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end about -->
+
+  <!-- Programs / Core Areas -->
+  <div class="wiondefault-bg z-index overflow-hidden" id="programs">
+    <div class="wionsection-padding">
+      <div class="container">
+        <div class="wionsection-title pb-56">
+          <div class="wionsub-title aos-init" data-aos-delay="400" data-aos="fade-up">
+            <p>What we train you in</p>
+          </div>
+          <h2 class="aos-init" data-aos-delay="500" data-aos="fade-up">Core programs</h2>
+        </div>
+        <div class="wionservice-image-reveal-wraper">
+          <div class="wionservice-wrap service02 wionimage-reveal-item p-relative wionhover-reveal-item">
+            <a class='d-block' href='#contact'>
+              <div class="wionservice-item wionservice-bg">
+                <div class="wionservice-wraper">
+                  <div class="wionservice-title title2">
+                    <h3>Software Engineering</h3>
+                  </div>
+                  <div class="wionservice-icon">
+                    <span class="wionbutton-icon icon2">
+                      <img class="arry1" src="assets/images/svg/arrow-dark.svg" alt="">
+                      <img class="arry2 arry3" src="assets/images/svg/arrow.svg" alt="">
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="wionhover-reveal-bg" style="background-image: url(assets/images/service/thumb1.png);"></div>
+          </div>
+          <div class="wionservice-wrap service02 wionimage-reveal-item p-relative wionhover-reveal-item">
+            <a class='d-block' href='#contact'>
+              <div class="wionservice-item wionservice-bg">
+                <div class="wionservice-wraper">
+                  <div class="wionservice-title title2">
+                    <h3>AI &amp; Data Science</h3>
+                  </div>
+                  <div class="wionservice-icon">
+                    <span class="wionbutton-icon icon2">
+                      <img class="arry1" src="assets/images/svg/arrow-dark.svg" alt="">
+                      <img class="arry2 arry3" src="assets/images/svg/arrow.svg" alt="">
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="wionhover-reveal-bg" style="background-image: url(assets/images/service/thumb2.png);"></div>
+          </div>
+          <div class="wionservice-wrap service02 wionimage-reveal-item p-relative wionhover-reveal-item">
+            <a class='d-block' href='#contact'>
+              <div class="wionservice-item wionservice-bg">
+                <div class="wionservice-wraper">
+                  <div class="wionservice-title title2">
+                    <h3>Cybersecurity</h3>
+                  </div>
+                  <div class="wionservice-icon">
+                    <span class="wionbutton-icon icon2">
+                      <img class="arry1" src="assets/images/svg/arrow-dark.svg" alt="">
+                      <img class="arry2 arry3" src="assets/images/svg/arrow.svg" alt="">
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="wionhover-reveal-bg" style="background-image: url(assets/images/service/thumb3.png);"></div>
+          </div>
+          <div class="wionservice-wrap service02 wionimage-reveal-item p-relative wionhover-reveal-item">
+            <a class='d-block' href='#contact'>
+              <div class="wionservice-item wionservice-bg">
+                <div class="wionservice-wraper">
+                  <div class="wionservice-title title2">
+                    <h3>Digital Governance</h3>
+                  </div>
+                  <div class="wionservice-icon">
+                    <span class="wionbutton-icon icon2">
+                      <img class="arry1" src="assets/images/svg/arrow-dark.svg" alt="">
+                      <img class="arry2 arry3" src="assets/images/svg/arrow.svg" alt="">
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="wionhover-reveal-bg" style="background-image: url(assets/images/service/thumb4.png);"></div>
+          </div>
+          <div class="wionservice-wrap service02 wionimage-reveal-item p-relative wionhover-reveal-item">
+            <a class='d-block' href='#contact'>
+              <div class="wionservice-item wionservice-bg bg2">
+                <div class="wionservice-wraper">
+                  <div class="wionservice-title title2">
+                    <h3>Research &amp; Innovation</h3>
+                  </div>
+                  <div class="wionservice-icon">
+                    <span class="wionbutton-icon icon2">
+                      <img class="arry1" src="assets/images/svg/arrow-dark.svg" alt="">
+                      <img class="arry2 arry3" src="assets/images/svg/arrow.svg" alt="">
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="wionhover-reveal-bg" style="background-image: url(assets/images/service/thumb5.png);"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end programs -->
+
+  <div class="white-speech"></div>
+
+  <!-- Featured Initiatives -->
+  <section class="wiondefault-bg z-index">
+    <div class="wionsection-padding">
+      <div class="container">
+        <div class="wionsection-title center">
+          <div class="wionsub-title aos-init" data-aos-delay="400" data-aos="fade-up">
+            <p>Where campus meets product</p>
+          </div>
+          <h2 class="aos-init" data-aos-delay="500" data-aos="fade-up">Featured initiatives</h2>
+        </div>
+        <div class="wionp-wraper">
+          <div class="wionp-item">
+            <div class="wionp-wrap aos-init" data-aos-delay="200" data-aos="fade-up">
+              <div class="wionp-thumb">
+                <a href='#contact'>
+                  <img src="assets/images/portfolio/thumb1.png" alt="NearFence Training Program">
+                </a>
+              </div>
+              <div class="wionp-content-wrap">
+                <div class="wionp-title">
+                  <a href='#contact'>
+                    <h3>NearFence Operator Program</h3>
+                  </a>
+                  <p>Train technicians to deploy and manage geofencing infrastructure</p>
+                </div>
+                <div class="wionp-btn-icon">
+                  <a class='wionportfolio-btn' href='#contact'>
+                    <i class="ri-arrow-right-up-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="wionp-wrap wrap2 wrap3 aos-init" data-aos-delay="600" data-aos="fade-up">
+              <div class="wionp-thumb">
+                <a href='#contact'>
+                  <img src="assets/images/portfolio/thumb7.png" alt="GovDigi Training">
+                </a>
+              </div>
+              <div class="wionp-content-wrap">
+                <div class="wionp-title">
+                  <a href='#contact'>
+                    <h3>GovDigi Civil Servant Academy</h3>
+                  </a>
+                  <p>Digital transformation training for government personnel nationwide</p>
+                </div>
+                <div class="wionp-btn-icon">
+                  <a class='wionportfolio-btn' href='#contact'>
+                    <i class="ri-arrow-right-up-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wionp-item">
+            <div class="wionp-wrap aos-init" data-aos-delay="400" data-aos="fade-up">
+              <div class="wionp-thumb">
+                <a href='#contact'>
+                  <img src="assets/images/portfolio/thumb2.png" alt="Cybersecurity SOC Training">
+                </a>
+              </div>
+              <div class="wionp-content-wrap">
+                <div class="wionp-title">
+                  <a href='#contact'>
+                    <h3>SOC Operations Bootcamp</h3>
+                  </a>
+                  <p>Hands-on threat intelligence, ethical hacking, and SOC operations</p>
+                </div>
+                <div class="wionp-btn-icon">
+                  <a class='wionportfolio-btn' href='#contact'>
+                    <i class="ri-arrow-right-up-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="wionp-wrap wrap2 aos-init" data-aos-delay="800" data-aos="fade-up">
+              <div class="wionp-thumb">
+                <a href='#contact'>
+                  <img src="assets/images/portfolio/thumb4.png" alt="AI Research Fellowship">
+                </a>
+              </div>
+              <div class="wionp-content-wrap">
+                <div class="wionp-title">
+                  <a href='#contact'>
+                    <h3>AI Research Fellowship</h3>
+                  </a>
+                  <p>Industry-sponsored research projects in machine learning and computer vision</p>
+                </div>
+                <div class="wionp-btn-icon">
+                  <a class='wionportfolio-btn' href='#contact'>
+                    <i class="ri-arrow-right-up-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wionp-btn">
+          <a class="wiondefault-btn aos-init" data-aos-delay="1000" data-aos="fade-up" href="#contact">View all programs
+            <span class="wionbutton-icon">
+              <img class="arry1" src="assets/images/svg/arrow-right.png" alt="">
+              <img class="arry2" src="assets/images/svg/arrow-right.png" alt="">
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end initiatives -->
+
+  <div class="white-speech"></div>
+
+  <!-- Ecosystem / Partners -->
+  <div class="wionsection-padding bg-heading" id="ecosystem">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex align-items-center">
+          <div class="wiondefault-content content2">
+            <div class="wionsub-title title2 aos-init" data-aos-delay="400" data-aos="fade-up">
+              <p>Research → Products → Talent</p>
+            </div>
+            <h2 class="aos-init" data-aos-delay="500" data-aos="fade-up">Our ecosystem partners</h2>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="wionbrand-slider-js-init">
+            <div class="wionbrand-slider-item">
+              <img src="assets/images/brand/brand1.svg" alt="">
+            </div>
+            <div class="wionbrand-slider-item">
+              <img src="assets/images/brand/brand2.svg" alt="">
+            </div>
+            <div class="wionbrand-slider-item">
+              <img src="assets/images/brand/brand3.svg" alt="">
+            </div>
+            <div class="wionbrand-slider-item">
+              <img src="assets/images/brand/brand4.svg" alt="">
+            </div>
+            <div class="wionbrand-slider-item">
+              <img src="assets/images/brand/brand1.svg" alt="">
+            </div>
+            <div class="wionbrand-slider-item">
+              <img src="assets/images/brand/brand2.svg" alt="">
+            </div>
+            <div class="wionbrand-slider-item">
+              <img src="assets/images/brand/brand3.svg" alt="">
+            </div>
+            <div class="wionbrand-slider-item">
+              <img src="assets/images/brand/brand4.svg" alt="">
+            </div>
+          </div>
+          <div class="wionbrand-slider-js-init2">
+            <div class="wionbrand-slider-item">
+              <img src="assets/images/brand/brand5.svg" alt="">
+            </div>
+            <div class="wionbrand-slider-item">
+              <img src="assets/images/brand/brand6.svg" alt="">
+            </div>
+            <div class="wionbrand-slider-item">
+              <img src="assets/images/brand/brand7.svg" alt="">
+            </div>
+            <div class="wionbrand-slider-item">
+              <img src="assets/images/brand/brand8.svg" alt="">
+            </div>
+            <div class="wionbrand-slider-item">
+              <img src="assets/images/brand/brand5.svg" alt="">
+            </div>
+            <div class="wionbrand-slider-item">
+              <img src="assets/images/brand/brand6.svg" alt="">
+            </div>
+            <div class="wionbrand-slider-item">
+              <img src="assets/images/brand/brand7.svg" alt="">
+            </div>
+            <div class="wionbrand-slider-item">
+              <img src="assets/images/brand/brand8.svg" alt="">
+            </div>
+          </div>
+          <div class="wionbrand-slider-js-init">
+            <div class="wionbrand-slider-item mb-0">
+              <img src="assets/images/brand/brand9.svg" alt="">
+            </div>
+            <div class="wionbrand-slider-item mb-0">
+              <img src="assets/images/brand/brand10.svg" alt="">
+            </div>
+            <div class="wionbrand-slider-item mb-0">
+              <img src="assets/images/brand/brand11.svg" alt="">
+            </div>
+            <div class="wionbrand-slider-item mb-0">
+              <img src="assets/images/brand/brand12.svg" alt="">
+            </div>
+            <div class="wionbrand-slider-item mb-0">
+              <img src="assets/images/brand/brand9.svg" alt="">
+            </div>
+            <div class="wionbrand-slider-item mb-0">
+              <img src="assets/images/brand/brand10.svg" alt="">
+            </div>
+            <div class="wionbrand-slider-item mb-0">
+              <img src="assets/images/brand/brand11.svg" alt="">
+            </div>
+            <div class="wionbrand-slider-item mb-0">
+              <img src="assets/images/brand/brand12.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="white-speech"></div>
+
+  <!-- Learning Journey / Process -->
+  <section class="wiondefault-bg">
+    <div class="wionsection-padding2">
+      <div class="container">
+        <div class="wionsection-title center">
+          <div class="wionsub-title aos-init" data-aos-delay="400" data-aos="fade-up">
+            <p>From enrollment to deployment</p>
+          </div>
+          <h2 class="aos-init" data-aos-delay="500" data-aos="fade-up">The learning journey</h2>
+        </div>
+        <div class="wionp-image-expand">
+          <div class="wionp-img-expand-wrap expand" style="background-image: url(assets/images/portfolio/p1.png);">
+            <div class="wionp-expand-icon">
+              <img src="assets/images/portfolio/icon1.svg" alt="">
+            </div>
+            <div class="wionp-expand-text content-rotate">
+              <h3>1. Enroll</h3>
+            </div>
+            <div class="wionp-expand-text">
+              <h3>1. Enroll</h3>
+              <p>Apply for your program of choice. Our admissions team guides you through assessment and onboarding.</p>
+            </div>
+          </div>
+          <div class="wionp-img-expand-wrap" style="background-image: url(assets/images/portfolio/p2.jpg);">
+            <div class="wionp-expand-icon">
+              <img src="assets/images/portfolio/icon2.svg" alt="">
+            </div>
+            <div class="wionp-expand-text content-rotate">
+              <h3>2. Learn</h3>
+            </div>
+            <div class="wionp-expand-text">
+              <h3>2. Learn</h3>
+              <p>Structured, industry-led training combining theory, labs, and real-world problem solving.</p>
+            </div>
+          </div>
+          <div class="wionp-img-expand-wrap" style="background-image: url(assets/images/portfolio/p3.jpg);">
+            <div class="wionp-expand-icon">
+              <img src="assets/images/portfolio/icon3.svg" alt="">
+            </div>
+            <div class="wionp-expand-text content-rotate">
+              <h3>3. Build</h3>
+            </div>
+            <div class="wionp-expand-text">
+              <h3>3. Build</h3>
+              <p>Work on live MGX Research projects — NearFence, GovDigi, eTrack, H360 — as part of your curriculum.</p>
+            </div>
+          </div>
+          <div class="wionp-img-expand-wrap" style="background-image: url(assets/images/portfolio/p4.jpg);">
+            <div class="wionp-expand-icon">
+              <img src="assets/images/portfolio/icon4.svg" alt="">
+            </div>
+            <div class="wionp-expand-text content-rotate">
+              <h3>4. Certify</h3>
+            </div>
+            <div class="wionp-expand-text">
+              <h3>4. Certify</h3>
+              <p>Earn an MGX Campus professional certification recognized by industry and government partners.</p>
+            </div>
+          </div>
+          <div class="wionp-img-expand-wrap" style="background-image: url(assets/images/portfolio/p5.jpg);">
+            <div class="wionp-expand-icon">
+              <img src="assets/images/portfolio/icon5.svg" alt="">
+            </div>
+            <div class="wionp-expand-text content-rotate">
+              <h3>5. Deploy</h3>
+            </div>
+            <div class="wionp-expand-text">
+              <h3>5. Deploy</h3>
+              <p>Enter the workforce through internship pathways, fellowships, or direct placement with MGX partners.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end journey -->
+
+  <!-- Testimonials -->
+  <div class="wionsection-padding">
+    <div class="container">
+      <div class="wionsection-title center">
+        <div class="wionsub-title aos-init" data-aos-delay="400" data-aos="fade-up">
+          <p>Voices from our community</p>
+        </div>
+        <h2 class="aos-init" data-aos-delay="500" data-aos="fade-up">Alumni speak</h2>
+      </div>
+      <div class="wiont-slider-init2">
+        <div class="wiont-item2">
+          <div class="wiont-wrap2">
+            <div class="wiont-content2">
+              <h4>"MGX Campus gave me the practical skills that no university course could. Within three months of graduating the cybersecurity bootcamp, I was deployed to a SOC team supporting a federal agency. The curriculum is built by people who actually work in the field."</h4>
+            </div>
+            <div class="wiont-author-wrap2">
+              <div class="wiont-author-thumb2">
+                <img src="assets/images/testimonial/t1.png" alt="">
+              </div>
+              <div class="wiont-author-data">
+                <h6>Emeka Okonkwo</h6>
+                <p>SOC Analyst, Federal Cybersecurity Unit</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wiont-item2">
+          <div class="wiont-wrap2">
+            <div class="wiont-content2">
+              <h4>"The AI fellowship connected me directly to MGX Research's machine learning projects. I co-authored a paper, contributed to production code, and walked out with a job offer. This is not a training program — it is a launchpad."</h4>
+            </div>
+            <div class="wiont-author-wrap2">
+              <div class="wiont-author-thumb2">
+                <img src="assets/images/testimonial/t3.png" alt="">
+              </div>
+              <div class="wiont-author-data">
+                <h6>Aisha Mohammed</h6>
+                <p>ML Engineer, MGX Research</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wiont-item2">
+          <div class="wiont-wrap2">
+            <div class="wiont-content2">
+              <h4>"Our ministry enrolled 40 civil servants in the GovDigi program. The results were immediate — digital processes that used to take weeks now take hours. MGX Campus understands what government transformation actually requires."</h4>
+            </div>
+            <div class="wiont-author-wrap2">
+              <div class="wiont-author-thumb2">
+                <img src="assets/images/testimonial/t2.png" alt="">
+              </div>
+              <div class="wiont-author-data">
+                <h6>Dr. Fatima Yusuf</h6>
+                <p>Director of Digital Services, Ministry of ICT</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wiont-item2">
+          <div class="wiont-wrap2">
+            <div class="wiont-content2">
+              <h4>"I came in as a junior developer and left the software engineering bootcamp confident enough to architect full-stack systems. The mentors are industry professionals, not just instructors. The difference is everything."</h4>
+            </div>
+            <div class="wiont-author-wrap2">
+              <div class="wiont-author-thumb2">
+                <img src="assets/images/testimonial/t4.png" alt="">
+              </div>
+              <div class="wiont-author-data">
+                <h6>Chukwudi Adaeze</h6>
+                <p>Full-Stack Engineer, Tech Startup — Lagos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end testimonials -->
+
+  <!-- FAQ -->
+  <section class="wiondefault-bg">
+    <div class="wionsection-padding">
+      <div class="container">
+        <div class="wionsection-title">
+          <div class="wionsub-title aos-init" data-aos-delay="400" data-aos="fade-up">
+            <p>Everything you need to know</p>
+          </div>
+          <h2 class="aos-init" data-aos-delay="500" data-aos="fade-up">Common questions</h2>
+        </div>
+        <div class="wionfaq-wrap1">
+          <div class="wionfaq-item open">
+            <div class="wionfaq-header">
+              <h3>01. Who can apply to MGX Campus programs?</h3>
+              <div class="wionactive-icon">
+                <img class="mynusicon" src="assets/images/svg/plas.svg" alt="">
+              </div>
+            </div>
+            <div class="wionfaq-body">
+              <p>MGX Campus is open to students, recent graduates, working professionals, and government personnel seeking to advance in technology. Each program has its own entry requirements — our admissions team will guide you to the right track.</p>
+            </div>
+          </div>
+          <div class="wionfaq-item">
+            <div class="wionfaq-header">
+              <h3>02. How long do programs take to complete?</h3>
+              <div class="wionactive-icon">
+                <img class="mynusicon" src="assets/images/svg/plas.svg" alt="">
+              </div>
+            </div>
+            <div class="wionfaq-body">
+              <p>Bootcamps run 8–16 weeks. Fellowship programs are 3–6 months. Government and enterprise training cohorts are customised to client timelines. All programs end with a professional certification.</p>
+            </div>
+          </div>
+          <div class="wionfaq-item">
+            <div class="wionfaq-header">
+              <h3>03. Are programs offered online, in-person, or both?</h3>
+              <div class="wionactive-icon">
+                <img class="mynusicon" src="assets/images/svg/plas.svg" alt="">
+              </div>
+            </div>
+            <div class="wionfaq-body">
+              <p>We offer hybrid delivery — core modules online, labs and project work in-person. Enterprise and government programs can be delivered fully on-site at your location.</p>
+            </div>
+          </div>
+          <div class="wionfaq-item">
+            <div class="wionfaq-header">
+              <h3>04. Does MGX Campus help with job placement after graduation?</h3>
+              <div class="wionactive-icon">
+                <img class="mynusicon" src="assets/images/svg/plas.svg" alt="">
+              </div>
+            </div>
+            <div class="wionfaq-body">
+              <p>Yes. Graduates access our internship and apprenticeship pathways, direct placement with MGX Research partner organisations, and referrals to our industry sponsor network. The MGX ecosystem itself is an employment pipeline.</p>
+            </div>
+          </div>
+          <div class="wionfaq-item">
+            <div class="wionfaq-header">
+              <h3>05. Can organisations sponsor or enroll teams?</h3>
+              <div class="wionactive-icon">
+                <img class="mynusicon" src="assets/images/svg/plas.svg" alt="">
+              </div>
+            </div>
+            <div class="wionfaq-body">
+              <p>Absolutely. We work with enterprises, government agencies, and NGOs to design and deliver custom cohort programs. Contact our partnerships team to discuss a training program for your organisation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end faq -->
+
+  <div class="white-speech"></div>
+
+  <!-- Footer / CTA -->
+  <footer class="wionfooter-section" id="contact">
+    <div class="wiondefault-bg bg2">
+      <div class="wionsection-padding">
+        <div class="container">
+          <div class="wioncta-wrap">
+            <div class="wionsub-title aos-init" data-aos-delay="400" data-aos="fade-up">
+              <p>Ready to build Africa's digital future?</p>
+            </div>
+            <h2 class="aos-init" data-aos-delay="500" data-aos="fade-up">Apply for a program or partner with us today.</h2>
+            <div class="mt-80">
+              <a class='wiondefault-btn dark-btn aos-init' data-aos-delay='600' data-aos='fade-up' href='mailto:campus@mgxresearch.com'>Apply Now
+                <span class="wionbutton-icon">
+                  <img class="arry1" src="assets/images/svg/arrow-white.svg" alt="">
+                  <img class="arry2" src="assets/images/svg/arrow-white.svg" alt="">
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-sticky">
+      <div class="container">
+        <div class="wionfooter-top">
+          <div class="row">
+            <div class="col-xl-6">
+              <div class="wionfooter-textarea">
+                <div class="wionsub-title">
+                  <p>Get in touch</p>
+                </div>
+                <a href="mailto:campus@mgxresearch.com">
+                  <h2>campus@mgxresearch.com</h2>
+                </a>
+              </div>
+            </div>
+            <div class="col-xl-5 offset-xl-1">
+              <div class="wionfooter-menu-wraper pl-30">
+                <div class="wionfooter-menu">
+                  <h4>Navigation</h4>
+                  <ul>
+                    <li><a href='index.html'>Home</a></li>
+                    <li><a href='#programs'>Programs</a></li>
+                    <li><a href='#about'>About</a></li>
+                    <li><a href='#ecosystem'>Ecosystem</a></li>
+                    <li><a href='#contact'>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="wionfooter-menu">
+                  <h4>Programs</h4>
+                  <ul>
+                    <li><a href='#programs'>Software Engineering</a></li>
+                    <li><a href='#programs'>AI &amp; Data Science</a></li>
+                    <li><a href='#programs'>Cybersecurity</a></li>
+                    <li><a href='#programs'>Digital Governance</a></li>
+                    <li><a href='#programs'>Research Fellowships</a></li>
+                  </ul>
+                </div>
+                <div class="wionfooter-menu">
+                  <h4>Follow us</h4>
+                  <ul>
+                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                    <li><a href="https://x.com/">X</a></li>
+                    <li><a href="https://www.youtube.com/">YouTube</a></li>
+                    <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/">Facebook</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wionfooter-bottom-wrap">
+          <div class="wionfooter-logo">
+            <a href='index.html'>
+              <img src="assets/images/logo/logo-dark.svg" alt="MGX Campus">
+            </a>
+          </div>
+          <div class="wionfooter-bottom-text">
+            <p>© Copyright 2025, All Rights Reserved by MGX Campus</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery-3.7.1.min.js"></script>
+  <script src="assets/js/slick-slide-active-code.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/jquery.mCustomScrollbar.min.js"></script>
+  <script src="assets/js/menu/menu.js"></script>
+  <script src="assets/js/slick.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/modernizr.min.js"></script>
+  <script src="assets/js/faq.js"></script>
+  <script src="assets/js/swiper.min.js"></script>
+  <script src="assets/js/tilt.jquery.min.js"></script>
+  <script src="assets/js/gsap.js"></script>
+  <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/js/gsap-scroll-smoother.js"></script>
+  <script src="assets/js/gsap-scroll-trigger.js"></script>
+  <script src="assets/js/gsap-split-text.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/odometer.min.js"></script>
+  <script src="assets/js/ScrollTrigger.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
